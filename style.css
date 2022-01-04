@@ -13,7 +13,7 @@ h3{
 }
 section{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .cold{
     width: 50%;
@@ -27,7 +27,7 @@ section{
     padding: 10px 40px;
     border-radius: 10px;
     background-image: linear-gradient( orangered, red);
-    color: wheat;
+    color: rgb(255, 255, 255);
     font-weight: 900;
 }
 .topbanner{
@@ -47,4 +47,27 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 150px;
+}
+.flexup{
+    display: flex;
+}
+
+.fya{
+box-shadow:5px 5px 40px gray;
+}
+
+#brr{
+    border-top: 7px solid;
+    border-image: linear-gradient(orangered,red) ;
+    border-image-slice: 1;
+}
+#yurr{
+    border-top: 7px solid;
+    border-image: linear-gradient(rgb(112, 112, 253), cyan) ;
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font:italic;
+    font-weight: 100
 }
