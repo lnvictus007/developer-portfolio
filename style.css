@@ -9,10 +9,11 @@ h1{
     color: red
 }
 h3{
-    text-decoration: slategray underline;
+    text-decoration: lightgray underline;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .cold{
     width: 50%;
@@ -32,4 +33,18 @@ section{
 .topbanner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.shundor2{
+    text-decoration: none;
+    padding: 20px 80px;
+    border-radius: 20px;
+    background-image:linear-gradient(orange,orangered);
+    color: lightgray;
+    font-weight: 900;
+}
+.bottombanner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 150px;
 }
